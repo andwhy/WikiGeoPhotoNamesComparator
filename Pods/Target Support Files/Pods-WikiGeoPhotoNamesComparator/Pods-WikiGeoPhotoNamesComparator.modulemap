@@ -1,0 +1,6 @@
+framework module Pods_WikiGeoPhotoNamesComparator {
+  umbrella header "Pods-WikiGeoPhotoNamesComparator-umbrella.h"
+
+  export *
+  module * { export * }
+}

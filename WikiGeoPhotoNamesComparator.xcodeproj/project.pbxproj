@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7C932B9313D32CACA322E5 /* Pods_WikiGeoPhotoNamesComparator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB76E49921AF292B366FE9C3 /* Pods_WikiGeoPhotoNamesComparator.framework */; };
+		8B7B42C01E6EDFBA00AFEE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B42BF1E6EDFBA00AFEE01 /* AppDelegate.swift */; };
+		8B7B42C51E6EDFBA00AFEE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B42C31E6EDFBA00AFEE01 /* Main.storyboard */; };
+		8B7B42C81E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B42C61E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld */; };
+		8B7B42CA1E6EDFBA00AFEE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B42C91E6EDFBA00AFEE01 /* Assets.xcassets */; };
+		8B7B42CD1E6EDFBA00AFEE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7B42CB1E6EDFBA00AFEE01 /* LaunchScreen.storyboard */; };
+		8B7B42D81E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B42D71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.swift */; };
+		8B7B43001E708DD500AFEE01 /* CoreData+Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B42FD1E708DD500AFEE01 /* CoreData+Save.swift */; };
+		8B7B43021E708DD500AFEE01 /* String+Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B42FF1E708DD500AFEE01 /* String+Utilites.swift */; };
+		8B7B43081E708FA600AFEE01 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43041E708FA600AFEE01 /* CoreDataManager.swift */; };
+		8B7B43091E708FA600AFEE01 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43051E708FA600AFEE01 /* DataManager.swift */; };
+		8B7B430A1E708FA600AFEE01 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43061E708FA600AFEE01 /* LocationManager.swift */; };
+		8B7B430B1E708FA600AFEE01 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43071E708FA600AFEE01 /* NetworkManager.swift */; };
+		8B7B430E1E708FBC00AFEE01 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */; };
+		8B7B43101E70903900AFEE01 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B430F1E70903900AFEE01 /* Structures.swift */; };
+		8B7B43121E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43111E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift */; };
+		A9E0E90266ACA602B70D4AE7 /* Pods_WikiGeoPhotoNamesComparatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2954450CC10447C64E8FFF29 /* Pods_WikiGeoPhotoNamesComparatorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B7B42D41E6EDFBA00AFEE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7B42B41E6EDFBA00AFEE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7B42BB1E6EDFBA00AFEE01;
+			remoteInfo = WikiGeoPhotoNamesComparator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C23C824B23BFDF41C5C1124 /* Pods-WikiGeoPhotoNamesComparatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparatorTests/Pods-WikiGeoPhotoNamesComparatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10D890E12039A8C5CE334E75 /* Pods-WikiGeoPhotoNamesComparatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparatorTests/Pods-WikiGeoPhotoNamesComparatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		2954450CC10447C64E8FFF29 /* Pods_WikiGeoPhotoNamesComparatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiGeoPhotoNamesComparatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7B42BC1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiGeoPhotoNamesComparator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7B42BF1E6EDFBA00AFEE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B7B42C41E6EDFBA00AFEE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B7B42C71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WikiGeoPhotoNamesComparator.xcdatamodel; sourceTree = "<group>"; };
+		8B7B42C91E6EDFBA00AFEE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B7B42CC1E6EDFBA00AFEE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B7B42CE1E6EDFBA00AFEE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7B42D31E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiGeoPhotoNamesComparatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7B42D71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiGeoPhotoNamesComparatorTests.swift; sourceTree = "<group>"; };
+		8B7B42D91E6EDFBA00AFEE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7B42FD1E708DD500AFEE01 /* CoreData+Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Save.swift"; sourceTree = "<group>"; };
+		8B7B42FF1E708DD500AFEE01 /* String+Utilites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utilites.swift"; sourceTree = "<group>"; };
+		8B7B43041E708FA600AFEE01 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8B7B43051E708FA600AFEE01 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8B7B43061E708FA600AFEE01 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8B7B43071E708FA600AFEE01 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		8B7B430F1E70903900AFEE01 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		8B7B43111E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Bind.swift"; sourceTree = "<group>"; };
+		BD82E591B02C7AB2F0A788F2 /* Pods-WikiGeoPhotoNamesComparator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparator.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator.release.xcconfig"; sourceTree = "<group>"; };
+		EAEF85145FDE274C76E535A1 /* Pods-WikiGeoPhotoNamesComparator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator.debug.xcconfig"; sourceTree = "<group>"; };
+		EB76E49921AF292B366FE9C3 /* Pods_WikiGeoPhotoNamesComparator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiGeoPhotoNamesComparator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B7B42B91E6EDFBA00AFEE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7C932B9313D32CACA322E5 /* Pods_WikiGeoPhotoNamesComparator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7B42D01E6EDFBA00AFEE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E0E90266ACA602B70D4AE7 /* Pods_WikiGeoPhotoNamesComparatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA9B7426CA1583DE627E123 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF85145FDE274C76E535A1 /* Pods-WikiGeoPhotoNamesComparator.debug.xcconfig */,
+				BD82E591B02C7AB2F0A788F2 /* Pods-WikiGeoPhotoNamesComparator.release.xcconfig */,
+				0C23C824B23BFDF41C5C1124 /* Pods-WikiGeoPhotoNamesComparatorTests.debug.xcconfig */,
+				10D890E12039A8C5CE334E75 /* Pods-WikiGeoPhotoNamesComparatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B7B42B31E6EDFBA00AFEE01 = {
+			isa = PBXGroup;
+			children = (
+				8B7B42BE1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator */,
+				8B7B42D61E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests */,
+				8B7B42BD1E6EDFBA00AFEE01 /* Products */,
+				2FA9B7426CA1583DE627E123 /* Pods */,
+				AB02553EEA6E0212CBC5B133 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7B42BD1E6EDFBA00AFEE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B42BC1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.app */,
+				8B7B42D31E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7B42BE1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B42BF1E6EDFBA00AFEE01 /* AppDelegate.swift */,
+				8B7B42C31E6EDFBA00AFEE01 /* Main.storyboard */,
+				8B7B42C91E6EDFBA00AFEE01 /* Assets.xcassets */,
+				8B7B42CB1E6EDFBA00AFEE01 /* LaunchScreen.storyboard */,
+				8B7B42CE1E6EDFBA00AFEE01 /* Info.plist */,
+				8B7B430C1E708FBC00AFEE01 /* Controllers */,
+				8B7B43031E708FA600AFEE01 /* Managers */,
+				8B7B42FC1E708DB200AFEE01 /* Helpers */,
+				8B7B42C61E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld */,
+			);
+			path = WikiGeoPhotoNamesComparator;
+			sourceTree = "<group>";
+		};
+		8B7B42D61E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B42D71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.swift */,
+				8B7B42D91E6EDFBA00AFEE01 /* Info.plist */,
+			);
+			path = WikiGeoPhotoNamesComparatorTests;
+			sourceTree = "<group>";
+		};
+		8B7B42FC1E708DB200AFEE01 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B42FD1E708DD500AFEE01 /* CoreData+Save.swift */,
+				8B7B42FF1E708DD500AFEE01 /* String+Utilites.swift */,
+				8B7B430F1E70903900AFEE01 /* Structures.swift */,
+				8B7B43111E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B7B43031E708FA600AFEE01 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B43041E708FA600AFEE01 /* CoreDataManager.swift */,
+				8B7B43051E708FA600AFEE01 /* DataManager.swift */,
+				8B7B43061E708FA600AFEE01 /* LocationManager.swift */,
+				8B7B43071E708FA600AFEE01 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8B7B430C1E708FBC00AFEE01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB02553EEA6E0212CBC5B133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB76E49921AF292B366FE9C3 /* Pods_WikiGeoPhotoNamesComparator.framework */,
+				2954450CC10447C64E8FFF29 /* Pods_WikiGeoPhotoNamesComparatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B7B42BB1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7B42DC1E6EDFBA00AFEE01 /* Build configuration list for PBXNativeTarget "WikiGeoPhotoNamesComparator" */;
+			buildPhases = (
+				2F6EDC8EFF39014B5F4DA79F /* [CP] Check Pods Manifest.lock */,
+				8B7B42B81E6EDFBA00AFEE01 /* Sources */,
+				8B7B42B91E6EDFBA00AFEE01 /* Frameworks */,
+				8B7B42BA1E6EDFBA00AFEE01 /* Resources */,
+				B2F48E5FE98A83CEE57FA194 /* [CP] Embed Pods Frameworks */,
+				841E659244FE55BFD55C61FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiGeoPhotoNamesComparator;
+			productName = WikiGeoPhotoNamesComparator;
+			productReference = 8B7B42BC1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B7B42D21E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7B42DF1E6EDFBA00AFEE01 /* Build configuration list for PBXNativeTarget "WikiGeoPhotoNamesComparatorTests" */;
+			buildPhases = (
+				88A8642D8EEA88DFECFBD700 /* [CP] Check Pods Manifest.lock */,
+				8B7B42CF1E6EDFBA00AFEE01 /* Sources */,
+				8B7B42D01E6EDFBA00AFEE01 /* Frameworks */,
+				8B7B42D11E6EDFBA00AFEE01 /* Resources */,
+				7E043875CD2F13A2C10F345C /* [CP] Embed Pods Frameworks */,
+				35D7636C6376672F7F3177D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B7B42D51E6EDFBA00AFEE01 /* PBXTargetDependency */,
+			);
+			name = WikiGeoPhotoNamesComparatorTests;
+			productName = WikiGeoPhotoNamesComparatorTests;
+			productReference = 8B7B42D31E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7B42B41E6EDFBA00AFEE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AndreyRozhkov;
+				TargetAttributes = {
+					8B7B42BB1E6EDFBA00AFEE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2Q8DHH5FHX;
+						ProvisioningStyle = Automatic;
+					};
+					8B7B42D21E6EDFBA00AFEE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2Q8DHH5FHX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B7B42BB1E6EDFBA00AFEE01;
+					};
+				};
+			};
+			buildConfigurationList = 8B7B42B71E6EDFBA00AFEE01 /* Build configuration list for PBXProject "WikiGeoPhotoNamesComparator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B7B42B31E6EDFBA00AFEE01;
+			productRefGroup = 8B7B42BD1E6EDFBA00AFEE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B7B42BB1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator */,
+				8B7B42D21E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B7B42BA1E6EDFBA00AFEE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7B42CD1E6EDFBA00AFEE01 /* LaunchScreen.storyboard in Resources */,
+				8B7B42CA1E6EDFBA00AFEE01 /* Assets.xcassets in Resources */,
+				8B7B42C51E6EDFBA00AFEE01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7B42D11E6EDFBA00AFEE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F6EDC8EFF39014B5F4DA79F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35D7636C6376672F7F3177D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparatorTests/Pods-WikiGeoPhotoNamesComparatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E043875CD2F13A2C10F345C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparatorTests/Pods-WikiGeoPhotoNamesComparatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841E659244FE55BFD55C61FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A8642D8EEA88DFECFBD700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F48E5FE98A83CEE57FA194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B7B42B81E6EDFBA00AFEE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7B43091E708FA600AFEE01 /* DataManager.swift in Sources */,
+				8B7B43001E708DD500AFEE01 /* CoreData+Save.swift in Sources */,
+				8B7B42C01E6EDFBA00AFEE01 /* AppDelegate.swift in Sources */,
+				8B7B43121E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift in Sources */,
+				8B7B430E1E708FBC00AFEE01 /* MainTVC.swift in Sources */,
+				8B7B42C81E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld in Sources */,
+				8B7B43021E708DD500AFEE01 /* String+Utilites.swift in Sources */,
+				8B7B43101E70903900AFEE01 /* Structures.swift in Sources */,
+				8B7B430B1E708FA600AFEE01 /* NetworkManager.swift in Sources */,
+				8B7B43081E708FA600AFEE01 /* CoreDataManager.swift in Sources */,
+				8B7B430A1E708FA600AFEE01 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7B42CF1E6EDFBA00AFEE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7B42D81E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B7B42D51E6EDFBA00AFEE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7B42BB1E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator */;
+			targetProxy = 8B7B42D41E6EDFBA00AFEE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B7B42C31E6EDFBA00AFEE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7B42C41E6EDFBA00AFEE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B7B42CB1E6EDFBA00AFEE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7B42CC1E6EDFBA00AFEE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B7B42DA1E6EDFBA00AFEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B7B42DB1E6EDFBA00AFEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B7B42DD1E6EDFBA00AFEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEF85145FDE274C76E535A1 /* Pods-WikiGeoPhotoNamesComparator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = WikiGeoPhotoNamesComparator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andreyrozhkov.WikiGeoPhotoNamesComparator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B7B42DE1E6EDFBA00AFEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD82E591B02C7AB2F0A788F2 /* Pods-WikiGeoPhotoNamesComparator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = WikiGeoPhotoNamesComparator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andreyrozhkov.WikiGeoPhotoNamesComparator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B7B42E01E6EDFBA00AFEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C23C824B23BFDF41C5C1124 /* Pods-WikiGeoPhotoNamesComparatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = WikiGeoPhotoNamesComparatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andreyrozhkov.WikiGeoPhotoNamesComparatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiGeoPhotoNamesComparator.app/WikiGeoPhotoNamesComparator";
+			};
+			name = Debug;
+		};
+		8B7B42E11E6EDFBA00AFEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D890E12039A8C5CE334E75 /* Pods-WikiGeoPhotoNamesComparatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Q8DHH5FHX;
+				INFOPLIST_FILE = WikiGeoPhotoNamesComparatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andreyrozhkov.WikiGeoPhotoNamesComparatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiGeoPhotoNamesComparator.app/WikiGeoPhotoNamesComparator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7B42B71E6EDFBA00AFEE01 /* Build configuration list for PBXProject "WikiGeoPhotoNamesComparator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7B42DA1E6EDFBA00AFEE01 /* Debug */,
+				8B7B42DB1E6EDFBA00AFEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7B42DC1E6EDFBA00AFEE01 /* Build configuration list for PBXNativeTarget "WikiGeoPhotoNamesComparator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7B42DD1E6EDFBA00AFEE01 /* Debug */,
+				8B7B42DE1E6EDFBA00AFEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7B42DF1E6EDFBA00AFEE01 /* Build configuration list for PBXNativeTarget "WikiGeoPhotoNamesComparatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7B42E01E6EDFBA00AFEE01 /* Debug */,
+				8B7B42E11E6EDFBA00AFEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B7B42C61E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B7B42C71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodel */,
+			);
+			currentVersion = 8B7B42C71E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodel */;
+			path = WikiGeoPhotoNamesComparator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B7B42B41E6EDFBA00AFEE01 /* Project object */;
+}
