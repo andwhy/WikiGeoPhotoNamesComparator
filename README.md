@@ -1,0 +1,2 @@
+# WikiGeoPhotoNamesComparator
+Test project
