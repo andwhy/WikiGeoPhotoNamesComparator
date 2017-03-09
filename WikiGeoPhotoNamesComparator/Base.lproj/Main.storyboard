@@ -12,7 +12,6 @@
         <!--Navigation Controller-->
         <scene sceneID="t6L-fZ-78x">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Skz-DJ-VGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="AYY-26-QbS" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Doa-Za-xew">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -22,13 +21,14 @@
                         <segue destination="5Aq-jx-ZvI" kind="relationship" relationship="rootViewController" id="uK1-BV-vKh"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Skz-DJ-VGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-748" y="55"/>
         </scene>
-        <!--MainTVC-->
+        <!--GroupsTVC-->
         <scene sceneID="deU-bI-nZ1">
             <objects>
-                <tableViewController id="5Aq-jx-ZvI" customClass="MainTVC" customModule="WikiGeoPhotoNamesComparator" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5Aq-jx-ZvI" customClass="GroupsTVC" customModule="WikiGeoPhotoNamesComparator" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dlo-M5-LiS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,11 +38,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yOc-qf-4t3" id="eev-kn-W3i">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h74-hK-Ago">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>

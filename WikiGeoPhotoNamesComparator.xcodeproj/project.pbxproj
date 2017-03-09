@@ -20,9 +20,10 @@
 		8B7B43091E708FA600AFEE01 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43051E708FA600AFEE01 /* DataManager.swift */; };
 		8B7B430A1E708FA600AFEE01 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43061E708FA600AFEE01 /* LocationManager.swift */; };
 		8B7B430B1E708FA600AFEE01 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43071E708FA600AFEE01 /* NetworkManager.swift */; };
-		8B7B430E1E708FBC00AFEE01 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */; };
+		8B7B430E1E708FBC00AFEE01 /* GroupsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B430D1E708FBC00AFEE01 /* GroupsTVC.swift */; };
 		8B7B43101E70903900AFEE01 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B430F1E70903900AFEE01 /* Structures.swift */; };
 		8B7B43121E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7B43111E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift */; };
+		8BF1FE691E71AB0D00510EE4 /* GroupsTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF1FE681E71AB0D00510EE4 /* GroupsTableDataSource.swift */; };
 		A9E0E90266ACA602B70D4AE7 /* Pods_WikiGeoPhotoNamesComparatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2954450CC10447C64E8FFF29 /* Pods_WikiGeoPhotoNamesComparatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,9 +57,10 @@
 		8B7B43051E708FA600AFEE01 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		8B7B43061E708FA600AFEE01 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		8B7B43071E708FA600AFEE01 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		8B7B430D1E708FBC00AFEE01 /* GroupsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTVC.swift; sourceTree = "<group>"; };
 		8B7B430F1E70903900AFEE01 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		8B7B43111E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Bind.swift"; sourceTree = "<group>"; };
+		8BF1FE681E71AB0D00510EE4 /* GroupsTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupsTableDataSource.swift; sourceTree = "<group>"; };
 		BD82E591B02C7AB2F0A788F2 /* Pods-WikiGeoPhotoNamesComparator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparator.release.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator.release.xcconfig"; sourceTree = "<group>"; };
 		EAEF85145FDE274C76E535A1 /* Pods-WikiGeoPhotoNamesComparator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiGeoPhotoNamesComparator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WikiGeoPhotoNamesComparator/Pods-WikiGeoPhotoNamesComparator.debug.xcconfig"; sourceTree = "<group>"; };
 		EB76E49921AF292B366FE9C3 /* Pods_WikiGeoPhotoNamesComparator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiGeoPhotoNamesComparator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +167,8 @@
 		8B7B430C1E708FBC00AFEE01 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8B7B430D1E708FBC00AFEE01 /* MainTVC.swift */,
+				8B7B430D1E708FBC00AFEE01 /* GroupsTVC.swift */,
+				8BF1FE681E71AB0D00510EE4 /* GroupsTableDataSource.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -387,9 +390,10 @@
 				8B7B43001E708DD500AFEE01 /* CoreData+Save.swift in Sources */,
 				8B7B42C01E6EDFBA00AFEE01 /* AppDelegate.swift in Sources */,
 				8B7B43121E7090FB00AFEE01 /* UIActivityIndicatorView+Bind.swift in Sources */,
-				8B7B430E1E708FBC00AFEE01 /* MainTVC.swift in Sources */,
+				8B7B430E1E708FBC00AFEE01 /* GroupsTVC.swift in Sources */,
 				8B7B42C81E6EDFBA00AFEE01 /* WikiGeoPhotoNamesComparator.xcdatamodeld in Sources */,
 				8B7B43021E708DD500AFEE01 /* String+Utilites.swift in Sources */,
+				8BF1FE691E71AB0D00510EE4 /* GroupsTableDataSource.swift in Sources */,
 				8B7B43101E70903900AFEE01 /* Structures.swift in Sources */,
 				8B7B430B1E708FA600AFEE01 /* NetworkManager.swift in Sources */,
 				8B7B43081E708FA600AFEE01 /* CoreDataManager.swift in Sources */,
