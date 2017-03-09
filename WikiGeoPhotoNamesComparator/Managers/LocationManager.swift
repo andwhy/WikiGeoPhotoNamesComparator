@@ -40,4 +40,10 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         }
     }
     
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == .denied {
+            completionHandler!(nil)
+        }
+    }
+    
 }

@@ -15,7 +15,7 @@ class GroupsTableDataSource: NSObject, UITableViewDataSource {
     
     var imagesGroupsArray:[Groups]? = [] {
         didSet {
-            DispatchQueue.main.sync {
+            DispatchQueue.main.async {
                 self.activity!.stopAnimating()
                 self.table.reloadData()
             }
